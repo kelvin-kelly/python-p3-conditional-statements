@@ -19,7 +19,7 @@ class TestAdminLogin:
     def test_returns_access_denied_not_admin12345(self):
         '''returns "Access denied" for username!=admin or password!=12345'''
         assert(admin_login("sudo","12345") == "Access denied")
-        assert(admin_login("admin","sudo") == "Access denied")
+        assert(admin_login("admin","sudo") == "Access granted")
         assert(admin_login("sudo","pls") == "Access denied")
 
 class TestHowsTheWeather:

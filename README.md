@@ -365,9 +365,17 @@ hows_the_weather(75)
 # "Perfect!"
 ```
 
-Write a function `fizzbuzz()` takes in a number. For multiples of three, return
-"Fizz" instead of the number. For the multiples of five, return "Buzz". For
-numbers which are multiples of both three and five, return "FizzBuzz". For
+Write a function `fizzbuzz()` takes in a number. 
+
+For multiples of three, return
+"Fizz" instead of the number. 
+
+For the multiples of five, return "Buzz". 
+
+For
+numbers which are multiples of both three and five, return "FizzBuzz". 
+
+For
 all other numbers, just return the number itself.
 
 ```py
@@ -386,8 +394,12 @@ fizzbuzz(15)
 ```
 
 Write a function `calculator()` that takes three arguments: an operation and two
-numbers. If the operation is one of the following: `+`, `-`, `*`, or `/`, return
-the value of calling the operation on the two numbers. Otherwise, output a
+numbers. 
+
+If the operation is one of the following: `+`, `-`, `*`, or `/`, return
+the value of calling the operation on the two numbers. 
+
+Otherwise, output a
 message saying "Invalid operation!" and return `None`.
 
 ```py
